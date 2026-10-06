@@ -1,0 +1,15 @@
+{
+  "_comment": "外部依赖锁定表。键名唯一且扁平，便于 shell 用 sed 提取，无需 jq/python。",
+  "_comment_2": "升级依赖时：改 version/asset，并同步替换 sha256。sha256 缺失或校验失败一律中止。",
+
+  "modemcat_repo": "SuInk/modemcat",
+  "modemcat_version": "v0.1.0",
+  "modemcat_asset": "ModemCat-macOS-arm64-v0.1.0.zip",
+  "modemcat_sha256": "4ea7c1f7a7835b5cddbc1a7613da9d9f8e09aae7f8fc9fac4565168068f215bf",
+  "modemcat_license": "PolyForm Noncommercial 1.0.0 (非商业)",
+  "modemcat_release_url": "https://github.com/SuInk/modemcat/releases/download/v0.1.0",
+
+  "_upstream_note": "ModemCat 自身基于 VoHive (github.com/iniwex5/vohive) 与 DJOneHub 的既有工作独立维护。",
+  "_device_note": "目标硬件：大疆第一代 4G 模块 = 佰旺 QDC507，内置 Quectel EG25-G，USB ID 2ca3:4006。",
+  "_compat_note": "发行包仅 Apple Silicon (arm64)，macOS 13+。Intel 版本上游尚未发布。"
+}
